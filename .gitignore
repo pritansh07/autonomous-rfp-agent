@@ -1,0 +1,12 @@
+# Ignore the Virtual Environment
+venv/
+__pycache__/
+
+# Ignore the Database (It's too heavy for GitHub and users should build their own)
+chroma_db/
+
+# IGNORE THE API KEYS!!!
+.env
+
+# Mac system files
+.DS_Store
