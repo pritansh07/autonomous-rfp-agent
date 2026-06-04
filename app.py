@@ -14,8 +14,6 @@ with st.sidebar:
     st.success("🟢 Vector Database: Online")
     st.success("🟢 Llama 3 AI: Connected")
     st.info("Currently querying: Acme_Master_Doc.pdf")
-    st.divider()
-    st.write("Built for Hackathon 2026 🚀")
 
 st.title("📄 Autonomous RFP & Tender Agent")
 st.markdown("Ask a question, and the AI will draft a response based **ONLY** on your company's uploaded documents.")
